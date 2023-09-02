@@ -37,5 +37,5 @@ fi
 echo $PSWD | sudo -S apt update && sudo apt upgrade -y
 echo $PSWD | sudo -S apt install -y git
 
-git clone https://github.com/knterada5/.dotfiles.git $HOME/.dotfiles
+git clone https://github.com/matsurix28/dotfiles.git $HOME/.dotfiles
 source $HOME/.dotfiles/linux/scripts/start.sh $PSWD $USER_NAME $USER_EMAIL
