@@ -1,0 +1,1124 @@
+2023/07/31 15:18:20.462 Info   Starting JoyToKey v6.9.1
+2023/07/31 15:18:20.462 Info   ExeFile = C:\Program Files (x86)\JoyToKey\JoyToKey.exe
+2023/07/31 15:18:20.462 Info   Args = C:\Program Files (x86)\JoyToKey\JoyToKey.exe
+2023/07/31 15:18:20.462 Info   DataDirectory = C:\Users\Kento\Documents\JoyToKey\
+2023/07/31 15:18:20.462 Info   Profile = 
+2023/07/31 15:18:20.462 Info   IniFile = C:\Users\Kento\Documents\JoyToKey\JoyToKey.ini
+2023/07/31 15:18:20.462 Info   Loading ini file: C:\Users\Kento\Documents\JoyToKey\JoyToKey.ini (AppInfo.cpp#259)
+2023/07/31 15:18:20.462 Info   LicenseKey "" is not valid
+2023/07/31 15:18:20.559 Info   Loading XInput1_3.dll (Joystick.cpp#158)
+2023/07/31 15:18:20.562 Info   Initialized XInput (Joystick.cpp#180)
+2023/07/31 15:18:20.578 Info   Initialized DirectInput (Joystick.cpp#193)
+2023/07/31 15:18:20.578 Info   Loading hid.dll (JoystickHID.h#58)
+2023/07/31 15:18:20.581 Info   Initialized HID (Joystick.cpp#202)
+2023/07/31 15:18:20.581 Info   ConfigDir=C:\Users\Kento\Documents\JoyToKey\*.cfg (ConfigFileManager.cpp#43)
+2023/07/31 15:18:20.583 Info   Failed to find AppLink.dat (AppLink\AppLinkManager.cpp#32)
+2023/07/31 15:18:20.603 Info   TimerInit: Initializing timer with x1 speed mode (interval = 16 msec)
+2023/07/31 15:25:23.743 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/07/31 15:25:23.744 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/07/31 15:25:29.045 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/07/31 15:25:29.045 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/07/31 15:25:29.122 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/07/31 15:25:29.122 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/07/31 15:25:29.169 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/07/31 15:25:29.169 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/07/31 15:25:32.362 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/07/31 15:25:32.362 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/07/31 15:25:32.564 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/07/31 15:25:32.564 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/07/31 15:25:41.776 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/07/31 15:25:41.776 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/07/31 15:25:41.791 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/07/31 15:25:41.791 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/07/31 15:25:43.729 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/07/31 15:25:43.729 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/07/31 16:41:18.337 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/07/31 16:41:18.337 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/07/31 16:41:47.241 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/07/31 16:41:47.241 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/07/31 16:55:27.107 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/07/31 16:55:27.107 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/07/31 16:55:30.485 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/07/31 16:55:30.485 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/07/31 16:55:34.916 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/07/31 16:55:34.916 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/07/31 16:55:37.590 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/07/31 16:55:37.590 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/07/31 17:16:02.899 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/07/31 17:16:02.899 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/07/31 20:33:16.797 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/07/31 20:33:16.797 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/07/31 20:33:17.213 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/07/31 20:33:17.213 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/07/31 20:33:17.464 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/07/31 20:33:17.464 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/07/31 20:33:20 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/07/31 20:33:20 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/07/31 20:48:34 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/07/31 20:48:34 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 5:44:58 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 5:44:58 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 5:58:26 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 5:58:26 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 6:12:06 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 6:12:06 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 6:16:14 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 6:16:14 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 6:16:31 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 6:16:31 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 6:20:10 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 6:20:10 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 6:28:10 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 6:28:10 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 6:28:53 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 6:28:53 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 6:28:53 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 6:28:53 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 6:28:55 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 6:28:55 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 6:30:13 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 6:30:13 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 6:31:29 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 6:31:29 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 6:32:04 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 6:32:04 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 6:32:04 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 6:32:04 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 6:32:07 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 6:32:07 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 6:32:29 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 6:32:29 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 6:32:29 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 6:32:29 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 6:32:32 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 6:32:32 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 6:32:38 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 6:32:38 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 6:32:38 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 6:32:38 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 6:32:54 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 6:32:54 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 6:33:50 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 6:33:50 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 6:34:53 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 6:34:53 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 6:35:00 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 6:35:00 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 6:35:26 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 6:35:26 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 6:42:44 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 6:42:44 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 6:44:02 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 6:44:02 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 6:45:24 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 6:45:24 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 6:46:06 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 6:46:06 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 6:48:56 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 6:48:56 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 6:49:22 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 6:49:22 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 7:04:44 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 7:04:44 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 7:05:00 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 7:05:00 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 7:05:17 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 7:05:17 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 7:05:20 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 7:05:20 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 7:05:22 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 7:05:22 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 7:05:27 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 7:05:27 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 7:05:33 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 7:05:33 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 7:05:52 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 7:05:52 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 7:05:58 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 7:05:58 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 7:06:08 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 7:06:08 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 7:06:15 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 7:06:15 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 7:06:22 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 7:06:22 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 7:06:30 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 7:06:30 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 7:07:23 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 7:07:23 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 7:07:28 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 7:07:28 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 7:07:48 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 7:07:48 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 7:08:41 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 7:08:41 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 7:09:29 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 7:09:29 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 7:09:38 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 7:09:38 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 7:09:46 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 7:09:46 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 7:09:58 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 7:09:58 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 7:10:12 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 7:10:12 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 7:10:14 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 7:10:14 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 7:10:15 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 7:10:15 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 7:10:21 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 7:10:21 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 7:10:39 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 7:10:39 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 7:10:59 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 7:10:59 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 7:11:12 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 7:11:12 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 7:11:20 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 7:11:20 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 7:11:23 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 7:11:23 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 7:29:05 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 7:29:05 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 7:30:03 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 7:30:03 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 9:26:34 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 9:26:34 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 9:26:35 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 9:26:35 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 9:27:41 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 9:27:41 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 9:28:53 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 9:28:53 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 9:29:06 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 9:29:06 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 9:29:11 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 9:29:11 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 9:29:16 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 9:29:16 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 9:29:17 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 9:29:17 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 9:29:44 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 9:29:44 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 9:30:05 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 9:30:05 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 9:30:08 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 9:30:08 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 9:31:59 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 9:31:59 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 9:32:07 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 9:32:07 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 9:32:17 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 9:32:17 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 9:32:21 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 9:32:21 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 9:32:30 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 9:32:30 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 9:32:32 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 9:32:32 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 9:32:39 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 9:32:39 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 9:51:04 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 9:51:04 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 9:56:20 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 9:56:20 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 9:58:39 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 9:58:39 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 9:58:45 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 9:58:45 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 9:59:29 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 9:59:29 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 9:59:30 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 9:59:30 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 9:59:33 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 9:59:33 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 9:59:51 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 9:59:51 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:00:52 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:00:52 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:03:04 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:03:04 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:03:14 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:03:14 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:03:19 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:03:19 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:03:21 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:03:21 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:03:21 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:03:21 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:03:23 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:03:23 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:03:23 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:03:23 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:03:23 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:03:23 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:03:25 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:03:25 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:03:25 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:03:25 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:03:26 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:03:26 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:03:27 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:03:27 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:03:27 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:03:27 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:03:27 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:03:27 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:03:28 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:03:28 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:03:28 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:03:28 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:03:29 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:03:29 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:03:32 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:03:32 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:03:35 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:03:35 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:03:35 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:03:35 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:03:42 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:03:42 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:03:44 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:03:44 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:03:44 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:03:44 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:03:46 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:03:46 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:03:48 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:03:48 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:03:48 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:03:48 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:03:49 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:03:49 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:03:51 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:03:51 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:03:51 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:03:51 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:03:52 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:03:52 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:03:53 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:03:53 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:03:59 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:03:59 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:04:01 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:04:01 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:07:12 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:07:12 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:10:42 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:10:42 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:10:42 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:10:42 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:25:25 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:25:25 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:25:26 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:25:26 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:25:28 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:25:28 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:25:28 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:25:28 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:25:29 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:25:29 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:25:31 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:25:31 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:25:32 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:25:32 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:25:32 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:25:32 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:25:33 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:25:33 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:25:34 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:25:34 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:25:34 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:25:34 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:25:34 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:25:34 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:25:35 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:25:35 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:25:36 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:25:36 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:25:38 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:25:38 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:25:38 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:25:38 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:25:38 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:25:38 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:25:40 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:25:40 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:25:41 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:25:41 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:25:45 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:25:45 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:25:45 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:25:45 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:27:14 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:27:14 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:27:14 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:27:14 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:36:38 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:36:38 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:36:38 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:36:38 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 10:36:41 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 10:36:41 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 11:40:55 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 11:40:55 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 11:40:55 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 11:40:55 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 11:44:23 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 11:44:23 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 11:44:23 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 11:44:23 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 12:30:51 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 12:30:51 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 12:31:15 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 12:31:15 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 12:31:16 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 12:31:16 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 12:31:17 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 12:31:17 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 12:31:17 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 12:31:17 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 12:31:18 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 12:31:18 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 12:31:18 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 12:31:18 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 12:31:18 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 12:31:18 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 12:31:19 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 12:31:19 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 12:31:19 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 12:31:19 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 12:31:20 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 12:31:20 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 12:31:21 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 12:31:21 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 12:31:23 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 12:31:23 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 12:31:23 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 12:31:23 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 12:31:24 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 12:31:24 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 12:31:25 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 12:31:25 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 12:31:27 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 12:31:27 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 12:31:27 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 12:31:27 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 12:31:27 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 12:31:27 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 13:22:30 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 13:22:30 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 13:22:30 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 13:22:30 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 13:55:07 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 13:55:07 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 13:55:07 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 13:55:07 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 13:55:08 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 13:55:08 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 13:55:09 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 13:55:09 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 13:55:14 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 13:55:14 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 13:55:16 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 13:55:16 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 13:56:00 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 13:56:00 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 13:59:32 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 13:59:32 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 13:59:33 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 13:59:33 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 14:03:27 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 14:03:27 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 14:03:30 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 14:03:30 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 14:03:30 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 14:03:30 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 14:03:32 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 14:03:32 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 14:03:32 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 14:03:32 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 14:03:34 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 14:03:34 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 14:03:34 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 14:03:34 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 14:03:34 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 14:03:34 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 14:03:35 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 14:03:35 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 14:03:35 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 14:03:35 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 14:03:36 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 14:03:36 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 14:03:36 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 14:03:36 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 14:03:36 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 14:03:36 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 14:03:36 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 14:03:36 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 14:03:36 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 14:03:36 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 14:03:38 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 14:03:38 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 14:03:39 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 14:03:39 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 14:03:42 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 14:03:42 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 14:03:42 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 14:03:42 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 14:03:42 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 14:03:42 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 14:03:42 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 14:03:42 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 14:03:42 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 14:03:42 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 14:03:42 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 14:03:42 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 14:03:43 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 14:03:43 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 14:03:44 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 14:03:44 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 14:03:46 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 14:03:46 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 14:03:46 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 14:03:46 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 14:03:49 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 14:03:49 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 14:03:49 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 14:03:49 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 14:03:50 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 14:03:50 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 14:03:50 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 14:03:50 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:22:58 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:22:58 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:24:34 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:24:34 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:24:34 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:24:34 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:28:04 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:28:04 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:28:04 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:28:04 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:28:17 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:28:17 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:28:18 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:28:18 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:28:21 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:28:21 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:28:21 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:28:21 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:28:23 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:28:23 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:28:23 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:28:23 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:28:24 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:28:24 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:28:25 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:28:25 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:28:25 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:28:25 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:28:25 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:28:25 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:28:25 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:28:25 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:28:25 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:28:25 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:28:26 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:28:26 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:28:27 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:28:27 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:28:29 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:28:29 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:28:29 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:28:29 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:28:29 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:28:29 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:28:30 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:28:30 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:28:34 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:28:34 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:28:34 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:28:34 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:34:56 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:34:56 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:34:57 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:34:57 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:34:57 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:34:57 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:35:21 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:35:21 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:35:32 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:35:32 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:35:42 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:35:42 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:36:07 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:36:07 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:36:29 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:36:29 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:36:46 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:36:46 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:36:47 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:36:47 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:36:57 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:36:57 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:37:08 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:37:08 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:37:10 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:37:10 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:37:11 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:37:11 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:37:11 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:37:11 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:37:13 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:37:13 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:37:13 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:37:13 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:37:16 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:37:16 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:37:17 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:37:17 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:37:20 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:37:20 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:37:21 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:37:21 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:37:26 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:37:26 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:37:56 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:37:56 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:37:59 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:37:59 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:38:08 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:38:08 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:38:35 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:38:35 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:39:31 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:39:31 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:39:32 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:39:32 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:39:37 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:39:37 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:42:40 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:42:40 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:42:45 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:42:45 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:43:28 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:43:28 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:43:28 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:43:28 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:43:41 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:43:41 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:43:47 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:43:47 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:43:50 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:43:50 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:43:54 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:43:54 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:43:54 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:43:54 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:43:58 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:43:58 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:43:58 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:43:58 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:44:01 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:44:01 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:44:02 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:44:02 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:44:52 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:44:52 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:44:55 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:44:55 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 15:44:57 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 15:44:57 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 21:56:59 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 21:56:59 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 21:57:00 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 21:57:00 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 21:57:03 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 21:57:03 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 21:57:04 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 21:57:04 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 21:57:19 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 21:57:19 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 21:57:19 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 21:57:19 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 21:57:21 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 21:57:21 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 21:57:25 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 21:57:25 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 21:57:37 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 21:57:37 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 21:57:38 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 21:57:38 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 21:57:44 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 21:57:44 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 21:57:45 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 21:57:45 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 21:57:49 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 21:57:49 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 21:57:50 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 21:57:50 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:02:17 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:02:17 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:13:13 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:13:13 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:13:13 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:13:13 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:13:16 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:13:16 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:16:45 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:16:45 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:16:45 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:16:45 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:16:46 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:16:46 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:16:47 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:16:47 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:16:56 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:16:56 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:17:11 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:17:11 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:17:11 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:17:11 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:20:43 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:20:43 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:20:43 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:20:43 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:28:42 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:28:42 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:28:44 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:28:44 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:28:44 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:28:44 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:28:46 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:28:46 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:28:46 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:28:46 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:28:47 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:28:47 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:28:47 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:28:47 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:28:47 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:28:47 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:28:48 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:28:48 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:28:48 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:28:48 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:28:49 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:28:49 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:28:49 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:28:49 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:28:49 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:28:49 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:28:49 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:28:49 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:28:51 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:28:51 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:28:51 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:28:51 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:28:53 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:28:53 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:28:53 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:28:53 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:28:53 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:28:53 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:28:53 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:28:53 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:28:53 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:28:53 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:28:53 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:28:53 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:28:54 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:28:54 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:28:55 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:28:55 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:28:56 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:28:56 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:28:56 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:28:56 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:28:59 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:28:59 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:28:59 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:28:59 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:29:01 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:29:01 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:29:01 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:29:01 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:29:01 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:29:01 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:29:26 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:29:26 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:31:56 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:31:56 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:32:00 Error  Failed to obtain the target window handle (Utils\Utils.cpp#347)
+2023/08/01 22:32:00 Error  アクセスが拒否されました。
+ (Utils\Utils.cpp#348)
+2023/08/01 22:32:09 Info   Application terminated (Utils\LogFile.cpp#20)
