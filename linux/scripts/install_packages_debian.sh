@@ -75,7 +75,7 @@ echo $PSWD | sudo -S make install
 cd $HOME
 
 # Install NvChad
-git clone https://github.com/NvChad/NvChad $HOME/.config/nvim --depth 1 && nvim --headless +q
+git clone https://github.com/NvChad/NvChad $HOME/.config/nvim --depth 1 && nvim +q
 rm -rf $HOME/.config/nvim/lua/custom
 ln -s $DOTDIR/src/custom $HOME/.config/nvim/lua/custom
 nvim --headless +q
