@@ -21,9 +21,6 @@ winget install --id JTKsoftware.JoyToKey --accept-source-agreements --accept-pac
 # Install Clip Studio
 winget install --id XPDP32QDDFL4PK --accept-source-agreements --accept-package-agreements
 
-# Install ESET Security
-winget install --id ESET.Security --accept-source-agreements --accept-package-agreements
-
 # Install Steam
 winget install --id Valve.Steam --accept-source-agreements --accept-package-agreements
 
