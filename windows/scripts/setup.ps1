@@ -54,6 +54,22 @@ Invoke-WebRequest -Uri "https://github.com/ryanoasis/nerd-fonts/releases/downloa
 $fonts_script = $RootDir + "\scripts\install_font.vbs"
 cscript /nologo $fonts_script "$HOME\Downloads\noto\NotoMonoNerdFont-Regular.ttf"
 
+# Install Stable Diffusion
+git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git $HOME\StableDiffusion
+python -m pip install --upgrade pip
+$AutoLaunch = (gc $HOME\StableDiffusion\webui-user.bat) -replace "set COMMANDLINE_ARGS=", "set COMMANDLINE_ARGS=--autolaunch --medvram --xformers`r`n`r`ncd %~dp0"
+$AutoLaunch > $HOME\StableDiffusion\webui-user.bat
+cd $HOME\StableDiffusion
+$SD = Start-Process -FilePath "$HOME\StableDiffusion\webui-user.bat" -PassThru
+while ($true) {
+  if (Get-Process | Where-Object {$_.MainWindowTitle -like "*Stable Diffusion*"}) {
+    Get-Process | Where-Object {$_.MainWindowTitle -like "*Stable Diffusion*"} | Stop-Process
+    Stop-Process $SD.Id
+    break
+  }
+  Start-Sleep -Seconds 30
+}
+
 # wsl --install
 wsl --install -n
 
