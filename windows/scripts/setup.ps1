@@ -90,6 +90,23 @@ New-Item -Value $VSCode_settings -Path $HOME\AppData\Roaming\Code\User\settings.
 New-Item -Value $VSCode_ext -Path $HOME\.vscode\extensions\extensions.json -ItemType SymbolicLink -Force
 sls '"identifier":{"id":".*?"' $VSCode_ext -AllMatches | % {$_.Matches.Value} | % {$_ -replace '"identifier":{"id":"', ''} | % {$_ -replace '"', ''} | % {& $HOME\AppData\Local\Programs\'Microsoft VS Code'\bin\code.cmd --install-extension $_}
 
+# Setting Hotkey
+$WsShell = New-Object -ComObject WScript.Shell
+$SD_Shc = $WsShell.CreateShortcut('AppData\Roaming\Microsoft\Windows\Start Menu\StableDiffusion.lnk')
+$SD_Shc.TargetPath = "$HOME\StableDiffusion\webui-user.bat"
+$SD_Shc.Save()
+
+mkdir "$HOME\AppData\Roaming\Microsoft\Windows\Start Menu\Shortcut"
+$Ubuntu_Shc = $WsShell.CreateShortcut('AppData\Roaming\Microsoft\Windows\Start Menu\Shortcut\ubuntu.lnk')
+$Ubuntu_Shc.TargetPath = "ubuntu"
+$Ubuntu_Shc.HotKey = "ALT+CTRL+U"
+$Ubuntu_Shc.Save()
+
+$Pwsh_Shc = $WsShell.CreateShortcut('AppData\Roaming\Microsoft\Windows\Start Menu\Shortcut\pwsh.lnk')
+$Pwsh_Shc.TargetPath = "pwsh"
+$Pwsh_Shc.Hotkey = "ALT+CTRL+P"
+$Pwsh_Shc.Save()
+
 # Change Registry
 cd $PSScriptRoot
 . .\regset.ps1
