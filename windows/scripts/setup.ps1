@@ -79,8 +79,8 @@ $WT_CONF = $RootDir + "\config\WindowsTerminal\settings.json"
 New-Item -Value $WT_CONF -Path "$HOME\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json" -ItemType SymbolicLink -Force
 
 # Setup config for JoyTokey
-$JOYTOKEY_CONF = $RootDir + "\config\JoyToky"
-New-Item -Value $JOYTOKEY_CONF -Path $HOME\Documents\JoyTokey -ItemType SymbolicLink -Force
+$JOYTOKEY_CONF = $RootDir + "\config\JoyTokey"
+New-Item -Value $JOYTOKEY_CONF -Path $HOME\Documents -Name JoyTokey -ItemType SymbolicLink -Force
 
 # Install VSCode extensions and set up config
 $VSCode_ext = $RootDir + "\config\VSCode\extensions.json"
