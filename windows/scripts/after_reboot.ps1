@@ -7,22 +7,6 @@ Set-ItemProperty -path $regLogonKey -name "DefaultUsername" -value ""
 Set-ItemProperty -path $regLogonKey -name "DefaultPassword" -value ""
 
 
-# Install Stable Diffusion
-git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git $HOME\StableDiffusion
-python -m pip install --upgrade pip
-$AutoLaunch = (gc $HOME\StableDiffusion\webui-user.bat) -replace "set COMMANDLINE_ARGS=", "set COMMANDLINE_ARGS=--autolaunch --medvram --xformers`r`n`r`ncd %~dp0"
-$AutoLaunch > $HOME\StableDiffusion\webui-user.bat
-cd $HOME\StableDiffusion
-$SD = Start-Process -FilePath "$HOME\StableDiffusion\webui-user.bat" -PassThru
-while ($true) {
-  if (Get-Process | Where-Object {$_.MainWindowTitle -like "*Stable Diffusion*"}) {
-    Get-Process | Where-Object {$_.MainWindowTitle -like "*Stable Diffusion*"} | Stop-Process
-    Stop-Process $SD.Id
-    break
-  }
-  Start-Sleep -Seconds 30
-}
-
 # Restore PowerToys settings
 mkdir $HOME\Documents\PowerToys\Backup
 $PT_CONF = $RootDir + "\config\PowerToys\settings_*"
