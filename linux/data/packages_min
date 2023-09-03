@@ -1,0 +1,11 @@
+# for neovim
+ninja-build 
+gettext 
+cmake 
+unzip 
+curl
+
+# for docker
+ca-certificates
+curl
+gnupg
