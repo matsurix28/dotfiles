@@ -1,3 +1,5 @@
+Start-Sleep -Seconds 30
+
 $RootDir = Split-Path -Path $PSScriptRoot
 
 # Set auto login false
@@ -6,16 +8,13 @@ Set-ItemProperty -path $regLogonKey -name "AutoAdminLogon" -value 0
 Set-ItemProperty -path $regLogonKey -name "DefaultUsername" -value ""
 Set-ItemProperty -path $regLogonKey -name "DefaultPassword" -value ""
 
-
 # Restore PowerToys settings
 mkdir $HOME\Documents\PowerToys\Backup
 $PT_CONF = $RootDir + "\config\PowerToys\settings_*"
-Write-Host $PT_CONF
 Copy-Item $PT_CONF -Destination "$HOME\Documents\PowerToys\Backup"
 Start-Process $HOME\AppData\Local\PowerToys\PowerToys.exe
 $wsobj = new-object -comobject wscript.shell
 $result = $wsobj.popup("[全般]→[バックアップ&復元]→[復元]", 0, "PowerToys 設定の復元")
-
 $POWERTOYS_WINDOW_TITLE = "*PowerToys*"
 Add-Type -AssemblyName UIAutomationClient
 $hwnd = (Get-Process |?{$_.MainWindowTitle -like $POWERTOYS_WINDOW_TITLE})[0].MainWindowHandle
