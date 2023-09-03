@@ -38,15 +38,14 @@ Start-Process -FilePath $HOME\Downloads\directx\DXSETUP.exe /SILENT -Wait
 
 # Install MMD
 Invoke-WebRequest -Uri "https://drive.google.com/uc?id=1Iucxu0tDsD05Siyv8VBGgm9vjD-f-RhM&export=download" -OutFile "$HOME\Downloads\mmd.zip"
-cd $env:Programfiles
-mkdir FreeSoft
-7z x $HOME\Downloads\mmd.zip -o"$env:Programfiles\FreeSoft"
+cd $HOME
+7z x $HOME\Downloads\mmd.zip -o $HOME
 
 # Unzip AviUtl
 Invoke-WebRequest -Uri "http://spring-fragrance.mints.ne.jp/aviutl/aviutl110.zip" -OutFile "$HOME\Downloads\aviutl.zip"
-cd $env:Programfiles
-mkdir FreeSoft\AviUtl
-7z x $HOME\Downloads\aviutl.zip -o"$env:Programfiles\FreeSoft\AviUtl"
+cd $HOME
+mkdir AviUtl
+7z x $HOME\Downloads\aviutl.zip -o "$HOME\AviUtl"
 
 # Install Nerd font
 Invoke-WebRequest -Uri "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Noto.zip" -OutFile "$HOME\Downloads\noto.zip"
