@@ -23,5 +23,5 @@ if (! ping -c 2 google.com > /dev/null 2>&1); then
   fi
 fi
 
-curl -LO https://raw.githubusercontent.com/knterada5/.dotfiles/main/install_linux.sh; source install_linux.sh $PSWD $USER_NAME $USER_EMAIL
+curl -LO https://raw.githubusercontent.com/knterada5/.dotfiles/main/install_linux_min.sh; source install_linux_min.sh $PSWD $USER_NAME $USER_EMAIL
 exit
