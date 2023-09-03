@@ -60,6 +60,9 @@ winget install --id Microsoft.VisualStudioCode --accept-source-agreements --acce
 # Install Windows Terminal
 winget install --id Microsoft.WindowsTerminal --accept-source-agreements --accept-package-agreements
 
+# Install lazygit
+winget install --id JesseDuffield.lazygit --accept-source-agreements --accept-package-agreements
+
 # Install PowerToys
 winget install --id Microsoft.PowerToys --accept-source-agreements --accept-package-agreements
 
