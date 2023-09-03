@@ -53,5 +53,6 @@ winget install --id Git.Git --accept-source-agreements --accept-package-agreemen
 $env:Path = [System.Environment]::GetEnvironmentVariable("Path", "Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path", "User")
 
 # Clone dotfiles and set up
+git config --global core.autocrlf false
 git clone https://github.com/matsurix28/dotfiles.git $HOME\.dotfiles
 pwsh $HOME\.dotfiles\windows\scripts/setup.ps1
