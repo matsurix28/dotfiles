@@ -54,20 +54,3 @@ while ($true) {
 cd $PSScriptRoot
 $DNS=Get-DnsClientServerAddress | Where-Object {$_.InterfaceAlias -match "イーサネット$|Wi-Fi"} | Where-Object {$_.AddressFamily -match "^2$"} | select -ExpandProperty ServerAddresses | Sort-Object | Get-Unique
 wsl --install -d ubuntu -n; ubuntu run "./start_wsl.sh $DNS"
-
-# Setting Hotkey
-$WsShell = New-Object -ComObject WScript.Shell
-$SD_Shc = $WsShell.CreateShortcut('AppData\Roaming\Microsoft\Windows\Start Menu\StableDiffusion.lnk')
-$SD_Shc.TargetPath = "$HOME\StableDiffusion\webui-user.bat"
-$SD_Shc.Save()
-
-mkdir "$HOME\AppData\Roaming\Microsoft\Windows\Start Menu\Shortcut"
-$Ubuntu_Shc = $WsShell.CreateShortcut('AppData\Roaming\Microsoft\Windows\Start Menu\Shortcut\ubuntu.lnk')
-$Ubuntu_Shc.TargetPath = "ubuntu"
-$Ubuntu_Shc.HotKey = "ALT+CTRL+U"
-$Ubuntu_Shc.Save()
-
-$Pwsh_Shc = $WsShell.CreateShortcut('AppData\Roaming\Microsoft\Windows\Start Menu\Shortcut\pwsh.lnk')
-$Pwsh_Shc.TargetPath = "pwsh"
-$Pwsh_Shc.Hotkey = "ALT+CTRL+P"
-$Pwsh_Shc.Save()
