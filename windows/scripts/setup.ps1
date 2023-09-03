@@ -88,7 +88,7 @@ $VSCode_settings = $RootDir + "\config\VSCode\settings.json"
 rm $HOME\.vscode\extensions\ -Recurse
 New-Item -Value $VSCode_ext -Path $HOME\.vscode\extensions\extensions.json -ItemType SymbolicLink -Force
 New-Item -Value $VSCode_settings -Path $HOME\AppData\Roaming\Code\User\settings.json -ItemType SymbolicLink -Force
-sls '"identifier":{"id":".*?"' .\extensions.json -AllMatches | % {$_.Matches.Value} | % {$_ -replace '"identifier":{"id":"', ''} | % {$_ -replace '"', ''} | % {code --install-extension $_}
+sls '"identifier":{"id":".*?"' $VSCode_ext -AllMatches | % {$_.Matches.Value} | % {$_ -replace '"identifier":{"id":"', ''} | % {$_ -replace '"', ''} | % {code --install-extension $_}
 
 # Change Registry
 cd $PSScriptRoot
