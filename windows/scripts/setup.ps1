@@ -37,15 +37,14 @@ Start-Process -FilePath $HOME\Downloads\directx.exe /Q, /T:$HOME\Downloads\direc
 Start-Process -FilePath $HOME\Downloads\directx\DXSETUP.exe /SILENT -Wait
 
 # Install MMD
+mkdir $HOME\FreeSoft
 Invoke-WebRequest -Uri "https://drive.google.com/uc?id=1Iucxu0tDsD05Siyv8VBGgm9vjD-f-RhM&export=download" -OutFile "$HOME\Downloads\mmd.zip"
-cd $HOME
-7z x $HOME\Downloads\mmd.zip -o $HOME
+7z x $HOME\Downloads\mmd.zip -o $HOME\FreeSoft
 
 # Unzip AviUtl
 Invoke-WebRequest -Uri "http://spring-fragrance.mints.ne.jp/aviutl/aviutl110.zip" -OutFile "$HOME\Downloads\aviutl.zip"
-cd $HOME
-mkdir AviUtl
-7z x $HOME\Downloads\aviutl.zip -o "$HOME\AviUtl"
+mkdir $HOME\FreeSoft\AviUtl
+7z x $HOME\Downloads\aviutl.zip -o "$HOME\FreeSoft\AviUtl"
 
 # Install Nerd font
 Invoke-WebRequest -Uri "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Noto.zip" -OutFile "$HOME\Downloads\noto.zip"
@@ -94,6 +93,16 @@ $WsShell = New-Object -ComObject WScript.Shell
 $SD_Shc = $WsShell.CreateShortcut('AppData\Roaming\Microsoft\Windows\Start Menu\StableDiffusion.lnk')
 $SD_Shc.TargetPath = "$HOME\StableDiffusion\webui-user.bat"
 $SD_Shc.Save()
+
+$MMD_Shc = $WsShell.CreateShortcut("$HOME\AppData\Roaming\Microsoft\Windows\Start Menu\MikuMikuDance.lnk")
+$MMD_folder = (ls $HOME\FreeSoft\Miku*).Name
+$MMD = $HOME + "\FreeSoft\" + $MMD_folder + "MikuMikuDance.exe"
+$MMD_Shc.TargetPath = $MMD
+$MMD_Shc.Save()
+
+$AVIUTL_Shc = $WsShell.CreateShortcut("$HOME\AppData\Roaming\Microsoft\Windows\Start Menu\AviUtl.lnk")
+$AVIUTL_Shc.TargetPath = "$HOME\FreeSoft\AviUtl\aviutl.exe"
+$AVIUTL_Shc.Save()
 
 mkdir "$HOME\AppData\Roaming\Microsoft\Windows\Start Menu\Shortcut"
 $Ubuntu_Shc = $WsShell.CreateShortcut('AppData\Roaming\Microsoft\Windows\Start Menu\Shortcut\ubuntu.lnk')
