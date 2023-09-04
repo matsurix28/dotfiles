@@ -38,7 +38,8 @@ echo $PSWD | sudo -S apt install -y $(check-language-support -l ja)
 echo $PSWD | sudo -S apt install -y fcitx-mozc
 echo $PSWD | sudo -S apt install -y fonts-noto-color-emoji
 echo $PSWD | sudo -S apt install -y fonts-symbola
-git clone --depth 1 https://github.com/ryanoasis/nerd-fonts.git
+git clone --depth 1 https://github.com/ryanoasis/nerd-fonts.git $HOME/nerd-fonts
+cd $HOME
 ./nerd-fonts/install.sh SourceCodePro
 im-config -n fcitx
 fcitx > /dev/null 2>&1 &
