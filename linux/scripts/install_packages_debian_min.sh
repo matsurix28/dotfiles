@@ -54,7 +54,7 @@ while read line; do
   if [[ ! $line =~ "#" ]] && [[ ! -z $line ]]; then
     echo $PSDW | sudo -S apt install -y $line
   fi
-done < $DOTDIR/data/packages
+done < $DOTDIR/data/packages_min
 
 # Set git config.
 git config --global user.name "$USER_NAME"
