@@ -84,6 +84,11 @@ curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/lates
 tar xf lazygit.tar.gz lazygit
 sudo install lazygit /usr/local/bin
 
+# Install asdf-rust
+asdf plugin-add rust https://github.com/asdf-community/asdf-rust.git
+asdf install rust latest
+asdf global rust latest
+
 # Install dust
 cargo install du-dust
 
