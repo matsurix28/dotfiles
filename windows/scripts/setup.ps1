@@ -17,6 +17,19 @@ $hwnd = (Get-Process | Where-Object {$_.MainWindowTitle -ne "" -and $_.ProcessNa
 $window = [System.Windows.Automation.AutomationElement]::FromHandle($hwnd)
 $windowPattern=$window.GetCurrentPattern([System.Windows.Automation.WindowPattern]::Pattern)
 $windowPattern.SetWindowVisualState([System.Windows.Automation.WindowVisualState]::Minimized)
+Start-Sleep -Seconds 30
+while ($true) {
+  Write-Host "loop"  
+  if (Test-Path "$HOME\Downloads\BandLab*") {
+    $BL = "$HOME\Downloads\" + (ls "$HOME\Downloads\BandLab*").Name
+    Start-Process -FilePath $BL
+    break
+  }
+  else {
+    Write-Host "mada"
+    Start-Sleep -Seconds 5
+  }
+}
 
 # Install Fenrir FS
 Invoke-WebRequest -Uri "https://www.fenrir-inc.com/services/download.php?file=FenrirFS-setup.exe" -OutFile "$HOME\Downloads\fenrir_installer.exe"
@@ -39,12 +52,12 @@ Start-Process -FilePath $HOME\Downloads\directx\DXSETUP.exe /SILENT -Wait
 # Install MMD
 mkdir $HOME\FreeSoft
 Invoke-WebRequest -Uri "https://drive.google.com/uc?id=1Iucxu0tDsD05Siyv8VBGgm9vjD-f-RhM&export=download" -OutFile "$HOME\Downloads\mmd.zip"
-7z x $HOME\Downloads\mmd.zip -o $HOME\FreeSoft
+7z x $HOME\Downloads\mmd.zip -o"$HOME\FreeSoft"
 
 # Unzip AviUtl
 Invoke-WebRequest -Uri "http://spring-fragrance.mints.ne.jp/aviutl/aviutl110.zip" -OutFile "$HOME\Downloads\aviutl.zip"
 mkdir $HOME\FreeSoft\AviUtl
-7z x $HOME\Downloads\aviutl.zip -o "$HOME\FreeSoft\AviUtl"
+7z x $HOME\Downloads\aviutl.zip -o"$HOME\FreeSoft\AviUtl"
 
 # Install Nerd font
 Invoke-WebRequest -Uri "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Noto.zip" -OutFile "$HOME\Downloads\noto.zip"
@@ -90,7 +103,7 @@ sls '"identifier":{"id":".*?"' $VSCode_ext -AllMatches | % {$_.Matches.Value} | 
 
 # Setting Hotkey
 $WsShell = New-Object -ComObject WScript.Shell
-$SD_Shc = $WsShell.CreateShortcut('AppData\Roaming\Microsoft\Windows\Start Menu\StableDiffusion.lnk')
+$SD_Shc = $WsShell.CreateShortcut("$HOME\AppData\Roaming\Microsoft\Windows\Start Menu\StableDiffusion.lnk")
 $SD_Shc.TargetPath = "$HOME\StableDiffusion\webui-user.bat"
 $SD_Shc.Save()
 
@@ -105,12 +118,12 @@ $AVIUTL_Shc.TargetPath = "$HOME\FreeSoft\AviUtl\aviutl.exe"
 $AVIUTL_Shc.Save()
 
 mkdir "$HOME\AppData\Roaming\Microsoft\Windows\Start Menu\Shortcut"
-$Ubuntu_Shc = $WsShell.CreateShortcut('AppData\Roaming\Microsoft\Windows\Start Menu\Shortcut\ubuntu.lnk')
+$Ubuntu_Shc = $WsShell.CreateShortcut("$HOME\AppData\Roaming\Microsoft\Windows\Start Menu\Shortcut\ubuntu.lnk")
 $Ubuntu_Shc.TargetPath = "ubuntu"
 $Ubuntu_Shc.HotKey = "ALT+CTRL+U"
 $Ubuntu_Shc.Save()
 
-$Pwsh_Shc = $WsShell.CreateShortcut('AppData\Roaming\Microsoft\Windows\Start Menu\Shortcut\pwsh.lnk')
+$Pwsh_Shc = $WsShell.CreateShortcut("$HOME\AppData\Roaming\Microsoft\Windows\Start Menu\Shortcut\pwsh.lnk")
 $Pwsh_Shc.TargetPath = "pwsh"
 $Pwsh_Shc.Hotkey = "ALT+CTRL+P"
 $Pwsh_Shc.Save()

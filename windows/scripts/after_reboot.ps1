@@ -29,27 +29,6 @@ while ($true) {
   Start-Sleep -Seconds 1
 }
 
-
-# Install cakewalk
-Start-Process -FilePath $HOME\Downloads\BandLab*
-
-Start-Sleep -Seconds 30
-
-while ($true) {
-  $BAND = Get-Process | Where-Object {$_.MainWindowTitle -ne ""} | Select-Object MainWindowTitle | Select-String "BandLab"
-  if ($BAND -eq $null)
-  {
-    echo "owata"
-    break
-  }
-  else
-  {
-    echo "madaya"
-  }
-  Start-Sleep -Seconds 5
-}
-
-
 # Setup Ubuntu on wsl
 cd $PSScriptRoot
 $DNS=Get-DnsClientServerAddress | Where-Object {$_.InterfaceAlias -match "イーサネット$|Wi-Fi"} | Where-Object {$_.AddressFamily -match "^2$"} | select -ExpandProperty ServerAddresses | Sort-Object | Get-Unique
