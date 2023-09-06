@@ -14,6 +14,9 @@ Set-ItemProperty -path $regLogonKey -name "AutoAdminLogon" -value 1
 Set-ItemProperty -path $regLogonKey -name "DefaultUsername" -value $defaultUserName
 Set-ItemProperty -path $regLogonKey -name "DefaultPassword" -value $defaultPassword
 
+# Set Git config
+$GitName = Read-Host "Enter your name for git: "
+$GitEmail = Read-Host "Enter your email for git: "
 
 # Install winget
 $OS_Ver = (Get-WmiObject Win32_OperatingSystem).Version | % { $_ -creplace "^.*\.", "" }
@@ -54,5 +57,9 @@ $env:Path = [System.Environment]::GetEnvironmentVariable("Path", "Machine") + ";
 
 # Clone dotfiles and set up
 git config --global core.autocrlf false
+git config --global user.name $GitName
+git config --global user.email $GitEmail
 git clone https://github.com/matsurix28/dotfiles.git $HOME\.dotfiles
+$pcname = hostname
+takeown /s $pcname /F $HOME\.dotfiles /R
 pwsh $HOME\.dotfiles\windows\scripts/setup.ps1

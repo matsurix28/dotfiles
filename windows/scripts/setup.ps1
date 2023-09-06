@@ -9,7 +9,7 @@ cd $PSScriptRoot
 . .\winget.ps1
 
 # Download BandLab
-Start-Process msedge https://www.bandlab.com/products/desktop/assistant/download/windows
+Start-Process msedge https://downloads.bandlab.com/cakewalk/setup/CakewalkSetup.exe?d=20220627
 Start-Sleep -Seconds 1
 # Minimize vivalde
 Add-Type -AssemblyName UIAutomationClient
@@ -17,19 +17,6 @@ $hwnd = (Get-Process | Where-Object {$_.MainWindowTitle -ne "" -and $_.ProcessNa
 $window = [System.Windows.Automation.AutomationElement]::FromHandle($hwnd)
 $windowPattern=$window.GetCurrentPattern([System.Windows.Automation.WindowPattern]::Pattern)
 $windowPattern.SetWindowVisualState([System.Windows.Automation.WindowVisualState]::Minimized)
-Start-Sleep -Seconds 30
-while ($true) {
-  Write-Host "loop"  
-  if (Test-Path "$HOME\Downloads\BandLab*") {
-    $BL = "$HOME\Downloads\" + (ls "$HOME\Downloads\BandLab*").Name
-    Start-Process -FilePath $BL
-    break
-  }
-  else {
-    Write-Host "mada"
-    Start-Sleep -Seconds 5
-  }
-}
 
 # Install Fenrir FS
 Invoke-WebRequest -Uri "https://www.fenrir-inc.com/services/download.php?file=FenrirFS-setup.exe" -OutFile "$HOME\Downloads\fenrir_installer.exe"

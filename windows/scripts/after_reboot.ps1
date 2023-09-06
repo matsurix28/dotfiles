@@ -29,6 +29,9 @@ while ($true) {
   Start-Sleep -Seconds 1
 }
 
+# Install Cakewalk
+Start-Process -FilePath $HOME\Downloads\CakewalkSetup.exe -Wait
+
 # Setup Ubuntu on wsl
 cd $PSScriptRoot
 $DNS=Get-DnsClientServerAddress | Where-Object {$_.InterfaceAlias -match "イーサネット$|Wi-Fi"} | Where-Object {$_.AddressFamily -match "^2$"} | select -ExpandProperty ServerAddresses | Sort-Object | Get-Unique
