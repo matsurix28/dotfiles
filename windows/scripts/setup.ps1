@@ -20,7 +20,7 @@ $windowPattern.SetWindowVisualState([System.Windows.Automation.WindowVisualState
 
 # Install Fenrir FS
 Invoke-WebRequest -Uri "https://www.fenrir-inc.com/services/download.php?file=FenrirFS-setup.exe" -OutFile "$HOME\Downloads\fenrir_installer.exe"
-Start-Process -FilePath $HOME\Downloads\fenrir_installer.exe /SILENT -Wait
+Start-Process -FilePath $HOME\Downloads\fenrir_installer.exe -ArgumentList "/SILENT" -Wait
 
 # Install vc2008 for MikuMikuDance
 Invoke-WebRequest -Uri "https://download.microsoft.com/download/5/D/8/5D8C65CB-C849-4025-8E95-C3966CAFD8AE/vcredist_x64.exe" -OutFile "$HOME\Downloads\vc2008.exe"
@@ -74,19 +74,18 @@ wsl --install -n
 # Set up Config
 # Setup config for windows terminal app
 $WT_CONF = $RootDir + "\config\WindowsTerminal\settings.json"
-New-Item -Value $WT_CONF -Path "$HOME\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json" -ItemType SymbolicLink -Force
+Copy-Item $WT_CONF -Destination "$HOME\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json" -Force
 
 # Setup config for JoyTokey
 $JOYTOKEY_CONF = $RootDir + "\config\JoyTokey"
-New-Item -Value $JOYTOKEY_CONF -Path $HOME\Documents -Name JoyTokey -ItemType SymbolicLink -Force
+Copy-Item $JOYTOKEY_CONF -Destination $HOME\Documents -Force -Recurse
 
 # Install VSCode extensions and set up config
-$VSCode_ext = $RootDir + "\config\VSCode\extensions.json"
+$VSCode_ext = $RootDir + "\config\VSCode\extensions"
 $VSCode_settings = $RootDir + "\config\VSCode\settings.json"
 rm $HOME\.vscode\extensions\ -Recurse
-New-Item -Value $VSCode_settings -Path $HOME\AppData\Roaming\Code\User\settings.json -ItemType SymbolicLink -Force
-New-Item -Value $VSCode_ext -Path $HOME\.vscode\extensions\extensions.json -ItemType SymbolicLink -Force
-sls '"identifier":{"id":".*?"' $VSCode_ext -AllMatches | % {$_.Matches.Value} | % {$_ -replace '"identifier":{"id":"', ''} | % {$_ -replace '"', ''} | % {& $HOME\AppData\Local\Programs\'Microsoft VS Code'\bin\code.cmd --install-extension $_}
+Copy-Item $VSCode_settings -Destination $HOME\AppData\Roaming\Code\User\settings.json -Force
+gc $VSCode_ext | % {& $HOME\AppData\Local\Programs\'Microsoft VS Code'\bin\code.cmd --install-extension $_}
 
 # Setting Hotkey
 $WsShell = New-Object -ComObject WScript.Shell
@@ -95,8 +94,8 @@ $SD_Shc.TargetPath = "$HOME\StableDiffusion\webui-user.bat"
 $SD_Shc.Save()
 
 $MMD_Shc = $WsShell.CreateShortcut("$HOME\AppData\Roaming\Microsoft\Windows\Start Menu\MikuMikuDance.lnk")
-$MMD_folder = (ls $HOME\FreeSoft\Miku*).Name
-$MMD = $HOME + "\FreeSoft\" + $MMD_folder + "MikuMikuDance.exe"
+$MMD_folder = (ls $HOME\FreeSoft\Miku*).FullName
+$MMD = $MMD_folder + "\MikuMikuDance.exe"
 $MMD_Shc.TargetPath = $MMD
 $MMD_Shc.Save()
 
@@ -111,9 +110,15 @@ $Ubuntu_Shc.HotKey = "ALT+CTRL+U"
 $Ubuntu_Shc.Save()
 
 $Pwsh_Shc = $WsShell.CreateShortcut("$HOME\AppData\Roaming\Microsoft\Windows\Start Menu\Shortcut\pwsh.lnk")
-$Pwsh_Shc.TargetPath = "pwsh"
+$Pwsh_Shc.TargetPath = "wt.exe"
 $Pwsh_Shc.Hotkey = "ALT+CTRL+P"
 $Pwsh_Shc.Save()
+
+# Add Path to commands
+$cmd = ";" + $RootDir + "\cmd"
+$PATH = $ENV:Path + $cmd
+[System.Environment]::SetEnvironmentVariable("Path", $PATH, "User")
+$env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
 
 # Change Registry
 cd $PSScriptRoot

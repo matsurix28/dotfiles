@@ -69,6 +69,9 @@ winget install --id Microsoft.PowerToys --accept-source-agreements --accept-pack
 # Install python 3.10.6 for Stable Diffusion
 winget install --id Python.Python.3.10 --version 3.10.6 --accept-source-agreements --accept-package-agreements
 
+# Install vivaldi
+winget install --id VivaldiTechnologies.Vivaldi --accept-source-agreements --accept-package-agreements
+
 
 # Setting Path
 $7Z = ";" + $env:Programfiles + "\7-Zip\"
