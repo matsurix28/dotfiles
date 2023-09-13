@@ -72,6 +72,8 @@ winget install --id Python.Python.3.10 --version 3.10.6 --accept-source-agreemen
 # Install vivaldi
 winget install --id VivaldiTechnologies.Vivaldi --accept-source-agreements --accept-package-agreements
 
+# Install Twinkle Tray
+winget install --id xanderfrangos.twinkletray --accept-source-agreements --accept-package-agreements
 
 # Setting Path
 $7Z = ";" + $env:Programfiles + "\7-Zip\"
