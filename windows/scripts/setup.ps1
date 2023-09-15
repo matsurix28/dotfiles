@@ -8,6 +8,9 @@ $RootDir = Split-Path -Path $PSScriptRoot
 cd $PSScriptRoot
 . .\winget.ps1
 
+# Download iVCam
+Start-Process msedge https://www.e2esoft.com/download/ivcam-x64
+Start-Sleep -Seconds 1
 # Download BandLab
 Start-Process msedge https://downloads.bandlab.com/cakewalk/setup/CakewalkSetup.exe?d=20220627
 Start-Sleep -Seconds 1
@@ -17,6 +20,10 @@ $hwnd = (Get-Process | Where-Object {$_.MainWindowTitle -ne "" -and $_.ProcessNa
 $window = [System.Windows.Automation.AutomationElement]::FromHandle($hwnd)
 $windowPattern=$window.GetCurrentPattern([System.Windows.Automation.WindowPattern]::Pattern)
 $windowPattern.SetWindowVisualState([System.Windows.Automation.WindowVisualState]::Minimized)
+
+# Install iVCam
+$iVCam = (ls $HOME\Downloads\iVCam*).FullName
+Start-Process -FilePath $iVCam -ArgumentList "/SILENT" -Wait
 
 # Install Fenrir FS
 Invoke-WebRequest -Uri "https://www.fenrir-inc.com/services/download.php?file=FenrirFS-setup.exe" -OutFile "$HOME\Downloads\fenrir_installer.exe"
@@ -92,6 +99,10 @@ $WsShell = New-Object -ComObject WScript.Shell
 $SD_Shc = $WsShell.CreateShortcut("$HOME\AppData\Roaming\Microsoft\Windows\Start Menu\StableDiffusion.lnk")
 $SD_Shc.TargetPath = "$HOME\StableDiffusion\webui-user.bat"
 $SD_Shc.Save()
+
+$SysMocap_Shc = $WsShell.CreateShortcut("$HOME\AppData\Roaming\Microsoft\Windows\Start Menu\SysMocap.lnk")
+$SysMocap_Shc.TargetPath = "$HOME\.dotfiles\windows\cmd\SysMocap.bat"
+$SysMocap_Shc.Save()
 
 $MMD_Shc = $WsShell.CreateShortcut("$HOME\AppData\Roaming\Microsoft\Windows\Start Menu\MikuMikuDance.lnk")
 $MMD_folder = (ls $HOME\FreeSoft\Miku*).FullName

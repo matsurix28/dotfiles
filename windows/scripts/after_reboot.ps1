@@ -8,6 +8,20 @@ Set-ItemProperty -path $regLogonKey -name "AutoAdminLogon" -value 0
 Set-ItemProperty -path $regLogonKey -name "DefaultUsername" -value ""
 Set-ItemProperty -path $regLogonKey -name "DefaultPassword" -value ""
 
+# Install Volta
+Invoke-WebRequest -Uri https://github.com/volta-cli/volta/releases/download/v1.1.1/volta-1.1.1-windows-x86_64.msi -OutFile $HOME\Downloads\volta.msi
+cmd /c "msiexec.exe /i $HOME\Downloads\volta.msi /passive"
+
+# Install Node.js
+volta install node
+volta install npm
+
+# Install SysMocap
+git clone https://github.com/xianfei/SysMocap.git $HOME\SysMocap
+cd $HOME\SysMocap
+npm i
+npm start
+
 # Restore PowerToys settings
 mkdir $HOME\Documents\PowerToys\Backup
 $PT_CONF = $RootDir + "\config\PowerToys\settings_*"

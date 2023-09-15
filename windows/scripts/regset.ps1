@@ -97,3 +97,6 @@ RegSet "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Wallpapers" "Ba
 # Enable Dark Mode
 RegSet "HKCU:\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize" "SystemUsesLightTheme" 'DWord' 0
 RegSet "HKCU:\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize" "AppsUseLightTheme" 'DWord' 0
+
+# Enable Developer Mode
+RegSet "HKLM:\Software\Microsoft\Windows\CurrentVersion\AppModelUnlock" "AllowDevelopmentWithoutDevLicense" "DWord" 1
